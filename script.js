@@ -23,7 +23,7 @@ let visible = [];
 let currentIndex = 0;
 
 function getSrc(img) {
-  return "images/" + img.file + ".jpg";
+  return img.file + ".jpg.jpg";
 }
 
 function renderGallery(filter) {
